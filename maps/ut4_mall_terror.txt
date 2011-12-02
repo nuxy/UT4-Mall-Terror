@@ -1,0 +1,77 @@
+================================================================================
+* Urban Terror Level * 
+--------------------------------------------------------------------------------
+Title			: Mall Terror
+Author			: Marc S. Brooks
+Date			: 2011
+
+
+--------------------------------------------------------------------------------
+* Level Description *
+--------------------------------------------------------------------------------
+An interactive 3D game map for Urban Terrorª the free multiplayer first person 
+shooter developed by FrozenSandª.  This is a subproject created for when I need 
+a break from the daily grind of code development.
+
+To put it simply.  I hate shopping malls with a passion and this map best 
+describes how I would rather spend my time if I was forced to go there.
+
+--------------------------------------------------------------------------------
+Single Player		: No
+Deathmatch (FFA)	: Yes
+Team Deathmatch		: Yes
+Team Survivor 		: Yes
+Capture and Hold	: No
+Follow the leader	: No
+Capture the flag	: Yes
+Suggested player load	: TBD
+New Textures		: Yes
+New Sounds		: Yes
+New Models		: Yes
+
+
+--------------------------------------------------------------------------------
+* Construction *
+--------------------------------------------------------------------------------
+Map Base		: None
+Prefabs used		: None
+Mapobjects used		: Mine	
+
+Editor used		: NetRadiant 1.5 to place entities
+Other utilities used	: Photoshop, Q3Map2
+
+
+--------------------------------------------------------------------------------
+* Credits *
+--------------------------------------------------------------------------------
+id Software		: For the Quake series
+
+
+--------------------------------------------------------------------------------
+* License / Warranty *
+--------------------------------------------------------------------------------
+Copyright (c) 2011 Marc "NuXY" Brooks  <http://mbrooks.info>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+The name of this software "ut4_mall_terror" must remain intact on all 
+distributed copies.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+See http://www.opensource.org/licenses/mit-license 
+================================================================================
