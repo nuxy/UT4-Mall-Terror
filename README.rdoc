@@ -1,11 +1,11 @@
-= UT4 Mall Terror (because shopping sucks)
+= UT4 Mall Terror
 
 An interactive 3D game map for Urban Terror™ the free multiplayer first person shooter developed by FrozenSand™.
 
 == Requirements
 
 - Urban Terror 4.x
-- Net/GTK Radiant 1.5 (optional - to modify .map file)
+- Net/GTK Radiant 1.5
 
 == Copyright
 
