@@ -1,8 +1,6 @@
-= UT4 Mall Terror
+http://github.com/nuxy/UT4-Mall-Terror/raw/master/levelshots/ut4_mall_terror.jpg
 
 An interactive 3D game map for Urban Terror™ the free multiplayer first person shooter developed by FrozenSand™.
-
-http://github.com/nuxy/UT4-Mall-Terror/raw/master/levelshots/ut4_mall_terror.jpg
 
 == Requirements
 
@@ -11,7 +9,7 @@ http://github.com/nuxy/UT4-Mall-Terror/raw/master/levelshots/ut4_mall_terror.jpg
 
 == Copyright
 
-Copyright (C) 2011, Marc S. Brooks {(http://mbrooks.info)}[http://mbrooks.info]
+Copyright (C) 2011-2012, Marc S. Brooks {(http://mbrooks.info)}[http://mbrooks.info]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
