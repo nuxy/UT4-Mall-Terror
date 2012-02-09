@@ -2,6 +2,8 @@
 
 An interactive 3D game map for Urban Terror™ the free multiplayer first person shooter developed by FrozenSand™.
 
+http://github.com/nuxy/UT4-Mall-Terror/raw/master/levelshots/ut4_mall_terror.jpg
+
 == Requirements
 
 - Urban Terror 4.x
