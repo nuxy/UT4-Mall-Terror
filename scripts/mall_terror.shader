@@ -97,3 +97,28 @@ textures/mall_terror/no_exit_sign
 		tcGen lightmap
 	}
 }
+
+textures/mall_terror/restricted_area_sign
+{
+	qer_editorimage textures/mall_terror/restricted_area_sign.tga
+	surfaceparm alphashadow
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm playerclip
+	surfaceparm trans
+	cull none
+	nopicmip
+	{
+		map textures/mall_terror/restricted_area_sign.tga
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		blendFunc filter
+		depthFunc equal
+		rgbGen identity
+		tcGen lightmap
+	}
+}
