@@ -122,3 +122,22 @@ textures/mall_terror/restricted_area_sign
 		tcGen lightmap
 	}
 }
+
+textures/mall_terror/lamp_shade
+{
+	q3map_lightimage textures/colors/canary.tga
+	qer_editorimage  textures/mall_terror/lamp_shade.jpg
+	q3map_surfacelight 8000
+	q3map_lightsubdivide 128
+	{
+		map $lightmap
+	}
+	{
+		map textures/mall_terror/glass.jpg
+		blendFunc GL_DST_COLOR GL_ZERO
+	}
+	{
+		map textures/mall_terror/lamp_shade.jpg
+		blendFunc GL_ONE GL_ONE
+	}
+}
