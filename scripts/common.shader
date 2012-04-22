@@ -77,7 +77,6 @@ textures/common/invisible
 {
 	surfaceparm nolightmap			
 	{
-		map textures/common/invisible.tga
 		alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -87,13 +86,12 @@ textures/common/invisible
 textures/common/ladderclip
 {
 	qer_trans 0.2
-	qer_editorimage textures/common/ladderclip.tga
-	surfaceparm ladder
 	surfaceparm nodraw
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm playerclip
 	surfaceparm trans
+	surfaceparm ladder
 }
 
 textures/common/lightgrid
