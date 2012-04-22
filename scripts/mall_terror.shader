@@ -61,18 +61,6 @@ textures/mall_terror/glass
 	}
 }
 
-textures/common/ladderclip
-{
-	qer_editorimage textures/common/ladderclip.tga
-	surfaceparm ladder
-	surfaceparm nodraw
-	surfaceparm nomarks
-	surfaceparm nonsolid
-	surfaceparm playerclip
-	surfaceparm trans
-	qer_trans 0.2
-}
-
 textures/mall_terror/no_exit_sign
 {
 	qer_editorimage textures/mall_terror/no_exit_sign.tga
