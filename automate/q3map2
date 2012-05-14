@@ -1,0 +1,41 @@
+#!/bin/sh
+#
+# Notes
+# - This script has been tested to work with RHEL & CentOS
+# - This script must be run as root
+#
+#  Dependencies
+#    Q3Map2 (http://shaderlab.com/q3map2)
+#
+# Author
+# Marc S. Brooks <devel@mbrooks.info>
+#
+
+BASE_DIR=/path/to/q3ut4
+MAP_BIN=/path/to/bin/q3map2
+
+# sources to release
+SOURCES=(
+    levelshots
+    maps/ut4_mall_terror.bsp
+    maps/ut4_mall_terror.prt
+    maps/ut4_mall_terror.srf
+    maps/ut4_mall_terror.txt
+    scripts/mall_terror.shader
+    scripts/shaderlist.txt
+    scripts/ut4_mall_terror.arena
+    sounds
+    textures
+);
+
+cd $BASE_DIR/baseq3
+
+# compile map to .BSP
+$MAP_BIN -game q3ut4 -fs_basepath $BASE_DIR -meta                $BASE_DIR/baseq3/maps/ut4_mall_terror.map
+$MAP_BIN -game q3ut4 -fs_basepath $BASE_DIR -vis -saveprt        $BASE_DIR/baseq3/maps/ut4_mall_terror.map
+$MAP_BIN -game q3ut4 -fs_basepath $BASE_DIR -light -fast -filter $BASE_DIR/baseq3/maps/ut4_mall_terror.map
+
+# create the .PK3
+zip -r $BASE_DIR/ut4_mall_terror.pk3 ${SOURCES[@]}
+
+exit 0

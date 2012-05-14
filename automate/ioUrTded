@@ -1,0 +1,64 @@
+#!/bin/sh
+#
+# Notes
+# - This script has been tested to work with RHEL & CentOS
+# - This script must be run as root
+#
+#  Dependencies
+#    ioUrTded (http://www.urbanterror.info/downloads)
+#
+# Author
+# Marc S. Brooks <devel@mbrooks.info>
+#
+
+LOCKFILE=/var/lock/subsys/ioUrTded.lock
+UT4_BIN=/path/to/bin/ioUrTded
+UT4_USER=iourt
+UT4_PORT=27960
+
+. /etc/init.d/functions
+
+if [ ! -e $UT4_BIN ]; then
+    echo $"Error: Could not find ioUrTded binary"
+    exit 1
+fi
+
+if [ ! id -u $UT4_USER >/dev/null 2>&1 ]; then
+    echo $"Error: User $UT4_USER does not exist"
+    exit 1
+fi
+
+start() {
+    action $"Starting Urban Terror server:" daemon --user $UT4_USER ./$UT4_BIN +set net_port $UT4_PORT +exec server.cfg \&
+
+    if [ $? -eq 0 ]; then
+        touch $LOCKFILE
+    fi
+}
+
+stop() {
+    action $"Stopping Urban Terror server:" killall -u $UT4_USER
+
+    if [ $? -eq 0 ]; then
+        rm -f $LOCKFILE
+    fi
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+
+    echo $"Usage: $0 {start|stop|restart}"
+    exit 1
+esac
+
+exit 0

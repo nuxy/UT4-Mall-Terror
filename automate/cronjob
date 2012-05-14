@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# Notes
+# - This script has been tested to work with RHEL & CentOS
+# - This script must be run as root
+#
+# Author
+# Marc S. Brooks <devel@mbrooks.info>
+#
+
+BASE_DIR=/path/to/UrbanTerror
+
+# get latest updates
+cd $BASE_DIR/q3ut4/baseq3
+git pull
+
+# if .MAP has been modified, recompile new .BSP and restart the game server
+if [ ! `find 'maps/ut4_mall_terror.map' -mmin +10` ]; then
+    cd $BASE_DIR
+    sh q3map2
+    sh ioUrTded restart
+fi
+
+exit 0
