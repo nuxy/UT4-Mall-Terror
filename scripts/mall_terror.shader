@@ -115,7 +115,7 @@ textures/mall_terror/lamp_shade
 {
 	q3map_lightimage textures/colors/canary.tga
 	qer_editorimage  textures/mall_terror/lamp_shade.jpg
-	q3map_surfacelight 8000
+	q3map_surfacelight 2500
 	q3map_lightsubdivide 128
 	{
 		map $lightmap
