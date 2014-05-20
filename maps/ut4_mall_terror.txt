@@ -3,7 +3,7 @@
 --------------------------------------------------------------------------------
 Title			: Mall Terror
 Author			: Marc S. Brooks
-Date			: 2011
+Date			: 2011-2014
 
 
 --------------------------------------------------------------------------------
@@ -50,7 +50,7 @@ id Software		: For the Quake series
 --------------------------------------------------------------------------------
 * License / Warranty *
 --------------------------------------------------------------------------------
-Copyright (c) 2011 Marc "NuXY" Brooks  <http://mbrooks.info>
+Copyright (c) 2014 Marc "NuXY" Brooks  <http://mbrooks.info>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
