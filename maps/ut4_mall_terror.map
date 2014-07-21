@@ -28084,12 +28084,14 @@ brushDef
 // entity 95
 {
 "classname" "team_CTF_redflag"
-"origin" "472.250000 252.000000 84.000000"
+"origin" "468.000000 266.250000 80.000000"
+"angle" "-90.000000"
 }
 // entity 96
 {
 "classname" "team_CTF_blueflag"
-"origin" "-2331.750000 252.000000 84.000000"
+"origin" "-2332.000000 266.250000 80.000000"
+"angle" "-90.000000"
 }
 // entity 97
 {
