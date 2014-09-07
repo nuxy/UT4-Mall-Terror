@@ -1,6 +1,6 @@
-https://github.com/nuxy/UT4-Mall-Terror/raw/master/textures/mall_terror.jpg
+{<img src="https://github.com/nuxy/UT4-Mall-Terror/raw/master/preview.jpg" alt="UT4-Mall-Terror" />}[https://ut4.mbrooks.info]
 
-An interactive 3D game map for Urban Terror™ the free multiplayer first person shooter developed by FrozenSand™.
+An interactive 3D game map for {Urban Terror™}[http://urbanterror.info] the free multiplayer first person shooter developed by {FrozenSand™}[http://www.frozensand.com].
 
 == Requirements
 
