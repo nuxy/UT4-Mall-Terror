@@ -9,12 +9,12 @@ An interactive 3D game map for [Urban Terror™](http://urbanterror.info) the fr
 - Urban Terror 4.x
 - Net/GTK Radiant 1.5
 
-## Copyright
+## License and Warranty
 
-Copyright (C) 2011-2014, Marc S. Brooks [(http://mbrooks.info)](http://mbrooks.info)
+This package is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+_UT4-Mall-Terror_ is provided under the terms of the [MIT license](http://www.opensource.org/licenses/mit-license.php)
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## Author
 
-The name of this software `ut4_mall_terror` must remain intact on all distributed copies.
+[Marc S. Brooks](https://github.com/nuxy)
